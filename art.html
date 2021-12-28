@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <style>
+            h1 {
+                text-align: center;
+                color: skyblue;
+            }
+
+            h2 {
+                text-align: center;
+                color: skyblue;
+                border-radius: 8px;
+                border: 1px solid skyblue;
+                padding: 12px;
+            }
+
+            img {
+                border-radius: 10px;
+                width: 100%;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 1.5;
+            }
+
+            button {
+                width: 100%;
+                background: skyblue;
+                color: blue;
+                border: none;
+                padding: 15px;
+                font-size: 20px;
+                border-radius: 30px;
+                box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+                margin: 20px 0;
+            }
+
+            footer {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+             aline._.studios 
+        </h1>
+        <h2>
+            An Artist's Perspective
+        </h2>
+        <img
+            src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.15752-9/48398826_215026409373545_5839908710733840384_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=ae9488&_nc_ohc=408EjvVNoAgAX-VhfzM&_nc_ht=scontent-sjc3-1.xx&oh=03_AVJfCkzZ5NeCodOXfBzh8vUvz5rB8XefHmOwTr5MDA7Tqg&oe=61F0FBD5"
+            alt=""
+            width="250"
+        <p>
+            Artists use perspective techniques to create a realistic impression of depth, 'play with' perspective to present dramatic or disorientating images. Perspective can also mean a point of view – the position from which an individual or group of people see and respond to, the world around them.
+            <br />
+            <br />
+            <a href="https://www.liveabout.com/definition-of-perspective-2577690"> 
+            Learn more about it here!
+            </a>
+        </p>
+        <button>
+            Contact me for commissions
+        </button>
+        <footer>
+            Coded by
+            <a href="https://alinekieu8988.wixsite.com/alinestudios/about">
+                Aline Kieu
+            </a>
+        </footer>
+
+        <script>
+            function subscribe() {
+                let name = prompt("What is your name?");
+                prompt("What is your email address?");
+                
+                alert(`Thanks, ${name}! We'll be in touch! Meanwhile, cheack out my portfolio`);
+            }
+            let button = document.querySelector("button");
+            button.addEventListener("click", subscribe)
+        </script>
+    </body>
+</html>
